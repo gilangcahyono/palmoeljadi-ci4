@@ -1,0 +1,134 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+  margin-top: -35px;
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+  color: var(--color-primary);
+  /* scale: 1.03; */
+  /* transform: scale(1.03); */
+  /* transition: 0.4s; */
+}
+
+#carousel {
+  margin-top: -35px;
+}
+
+#carousel .carousel-item img {
+  height: 100vh;
+}
+
+.actived {
+  color: var(--color-primary);
+}
+
+.donation {
+  animation: shake 3s ease-in-out infinite;
+}
+
+.whatsapp {
+  bottom: 3rem;
+  left: 7px;
+}
+
+.scroll-to-top {
+  bottom: 3rem;
+  right: -100%;
+  /* transition: all 3s ease-in-out; */
+}
+
+.text-indent-30 {
+  text-indent: 30px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.card-title a {
+  color: black;
+}
+
+.card-title a:hover {
+  color: var(--color-primary);
+  /* text-decoration: underline; */
+}
+
+.card-title-all-post {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.excerpt {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+#donation {
+  /* background-color: #013338; */
+  background-color: rgba(red, green, blue, alpha);
+}
+
+.btn-read-more:hover {
+  transform: scale(1.03);
+  /* text-decoration: underline; */
+  transition: 0.5s;
+}
+
+.gambar-post:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0);
+  }
+  10% {
+    transform: rotate(-5deg);
+  }
+  20% {
+    transform: rotate(5deg);
+  }
+  30% {
+    transform: rotate(-5deg);
+  }
+  40% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-2.5deg);
+  }
+  60% {
+    transform: rotate(2.5deg);
+  }
+  70% {
+    transform: rotate(-2.5deg);
+  }
+  80% {
+    transform: rotate(2.5deg);
+  }
+  90% {
+    transform: rotate(-1deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}

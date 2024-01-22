@@ -1,0 +1,17 @@
+:root {
+  /* --bs-blue: #0596b5 !important; */
+  --bg-primary: #0596b5 !important;
+  --color-primary: #0596b5 !important;
+}
+
+.bg-primary {
+  background-color: var(--bg-primary) !important;
+}
+
+.bg-footer {
+  background-color: #04727e;
+}
+
+.text-primary {
+  color: var(--color-primary) !important;
+}
